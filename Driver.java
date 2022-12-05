@@ -26,7 +26,7 @@ public class Driver {
     }
 
     public static void testRun (int[] cities) {
-        Program3Solution pa3 = new Program3Solution();
+        Program3 pa3 = new Program3();
 
         long start = System.currentTimeMillis();
         int opt = pa3.maxFoodCount(sections);
